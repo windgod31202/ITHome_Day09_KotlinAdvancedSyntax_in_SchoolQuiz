@@ -160,7 +160,6 @@ class MainActivity : AppCompatActivity() {
 
 - 結果截圖
 ![添加Object的結果](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/cf6e0c2e-0de2-447f-94a0-603aecf6f13c)
-
 ![添加Object的結果02](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/52e43f45-187e-48d6-ba44-096abef0742e)
 
 
