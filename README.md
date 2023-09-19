@@ -67,11 +67,13 @@ class 類別名稱 <泛型的類型>{
     ```kotlin
     val 變數名稱 = 類別名稱<自己設置的型態>("參數設置")
     ```
-    ![](https://hackmd.io/_uploads/SJhKunIJp.png)
+    ![結果01](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/6415f14d-0593-4589-bd39-ddd3d181bbd1)
+
 
 - **型態不一致產生的錯誤訊息**
 告知你`question1`所設置的型態是`Sting`但我嘗試使用`Int`型態的**15**進行寫入。
-![](https://hackmd.io/_uploads/Synkh3Lk6.png)
+![泛型型態不一致的錯誤訊息](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/dd807ba7-bf66-46e5-aabe-b385c0d1b0ba)
+
 
 ## 使用列舉類別
 透過使用列舉類別，就能建立內含有限數量可能值的類型。
@@ -111,7 +113,7 @@ enum class 類別名稱 {
     // 然後把難度的輸入改成變數
     ```
 可以看到難度的文字是以常數名稱顯示。
-![](https://hackmd.io/_uploads/S1MelaUkp.png)
+![添加Enum的結果](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/070c3030-6c06-4031-b31b-327c15042da3)
 
 
 ## 單例模式物件Object
@@ -157,8 +159,10 @@ class MainActivity : AppCompatActivity() {
 ```
 
 - 結果截圖
-![](https://hackmd.io/_uploads/HkIRD6U1p.png)
-![](https://hackmd.io/_uploads/By1eaTU1T.png)
+![添加Object的結果](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/cf6e0c2e-0de2-447f-94a0-603aecf6f13c)
+
+![添加Object的結果02](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/52e43f45-187e-48d6-ba44-096abef0742e)
+
 
 ### 將物件宣告成伴生物件
 您可以使用「伴生物件」在其他類別裡面定義單例模式物件。
@@ -226,7 +230,8 @@ fun Question.StudentProgress."自訂義函式名稱"(): "型態" {
 這邊建立完成後來到底下建立的function將剛剛的 `Question.ProgressText` 更改成建立的function名稱 `Question."函式名稱"()` 就好了。
 - **輸出結果**
 如圖中的StudentInfo就是使用以上方法。
-![](https://hackmd.io/_uploads/ByzwK0Lka.png)
+![添加擴充函式的結果](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/b6780be3-cf2d-4472-bf17-3ca06ff551c6)
+
 
 ## 定義資料類別
 ![](https://i.imgur.com/segzGmR.png)
@@ -326,11 +331,14 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 ## 整個程式碼運作流程圖
-![](https://hackmd.io/_uploads/SyEOlePJ6.png)
+![學生考試流程圖 drawio (1)](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/2af5bde3-cfb8-4e9c-894b-338de0077aad)
+
 
 ## 結論
 以上是今天更進階一點的Kotlin程式說明，基本上都是建立類別時可能會常常使用到的一些功能類，Kotlin中有很多類別，在建立時可能會冒出一大串選項導致眼花撩亂。
 - 建立Kotlin檔案時的選項如下
-![](https://hackmd.io/_uploads/rJsPbevkT.png)
+![建立Kotlin檔案的選項](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/f4d63363-3251-46d9-86e0-1185b4dc933d)
+
 - 建立Java檔案時的選項如下
-![](https://hackmd.io/_uploads/rkzc-ePJa.png)
+![建立Java檔案的選項](https://github.com/windgod31202/ITHome_Day09_KotlinAdvancedSyntax_in_SchoolQuiz/assets/88834703/dbf245d0-c91f-4a43-82b6-a4cc98ec1a61)
+
